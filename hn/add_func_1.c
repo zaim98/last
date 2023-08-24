@@ -110,11 +110,10 @@ char *convert_num(long int num, int base, int flags)
 	ptr = &buffer[49];
 	*ptr = '\0';
 
-	do
-	{
+	do	{
 		*--ptr = array[n % base];
 		n /= base;
-	} while (n != 0);
+	}	while (n != 0);
 
 	if (sign)
 		*--ptr = sign;
