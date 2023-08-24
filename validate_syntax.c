@@ -109,7 +109,7 @@ void print_syntax_error(data_shell *datash, char *input, int i, int bool)
 	{
 		if (bool == 0)
 			msg = (input[i + 1] == ';' ? ";;" : ";");
-		elsea
+		else
 			msg = (input[i - 1] == ';' ? ";;" : ";");
 	}
 
@@ -148,7 +148,7 @@ void print_syntax_error(data_shell *datash, char *input, int i, int bool)
  * check_syntax_error - Entry point.
  * @datash: data structure
  * @input: input string
- * Description: This function intermediate function to 
+ * Description: This function intermediate function to
  *	find and print a syntax error.
  * Return: 1 if there is an error. 0 in other case
  */
