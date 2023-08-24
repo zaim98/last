@@ -1,9 +1,8 @@
 #include "shell.h"
-
 /**
- * cd_shell - changes current directory
- *
+ * cd_shell - Entry point.
  * @datash: data relevant
+ * Description: This function changes current directory.
  * Return: 1 on success
  */
 int cd_shell(data_shell *datash)

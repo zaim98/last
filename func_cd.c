@@ -1,10 +1,8 @@
 #include "shell.h"
-
 /**
- * cd_dot - changes to the parent directory
- *
+ * cd_dot - Entry point.
  * @datash: data relevant (environ)
- *
+ * Description: This function changes to the parent directory.
  * Return: no return
  */
 void cd_dot(data_shell *datash)
@@ -52,10 +50,9 @@ void cd_dot(data_shell *datash)
 }
 
 /**
- * cd_to - changes to a directory given
- * by the user
- *
+ * cd_to - Entry point.
  * @datash: data relevant (directories)
+ * Description: This function changes to a directory given by the user.
  * Return: no return
  */
 void cd_to(data_shell *datash)
@@ -87,9 +84,9 @@ void cd_to(data_shell *datash)
 }
 
 /**
- * cd_previous - changes to the previous directory
- *
+ * cd_previous - Entry point.
  * @datash: data relevant (environ)
+ * Description: This function changes to the previous directory.
  * Return: no return
  */
 void cd_previous(data_shell *datash)
@@ -129,9 +126,9 @@ void cd_previous(data_shell *datash)
 }
 
 /**
- * cd_to_home - changes to home directory
- *
+ * cd_to_home - Entry point.
  * @datash: data relevant (environ)
+ * Description: This function changes to home directory.
  * Return: no return
  */
 void cd_to_home(data_shell *datash)

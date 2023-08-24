@@ -1,9 +1,9 @@
 #include "shell.h"
-
 /**
- * _strcat - concatenate two strings
+ * _strcat - Entry point.
  * @dest: char pointer the dest of the copied str
  * @src: const char pointer the source of str
+ * Description: This function concatenate two strings.
  * Return: the dest
  */
 char *_strcat(char *dest, const char *src)
@@ -24,9 +24,10 @@ char *_strcat(char *dest, const char *src)
 	return (dest);
 }
 /**
- * *_strcpy - Copies the string pointed to by src.
+ * *_strcpy - Entry point.
  * @dest: Type char pointer the dest of the copied str
  * @src: Type char pointer the source of str
+ * Description: This function Copies the string pointed to by src.
  * Return: the dest.
  */
 char *_strcpy(char *dest, char *src)
@@ -43,9 +44,10 @@ char *_strcpy(char *dest, char *src)
 	return (dest);
 }
 /**
- * _strcmp - Function that compares two strings.
+ * _strcmp - Entry point.
  * @s1: type str compared
  * @s2: type str compared
+ * Description: This function Function that compares two strings.
  * Return: Always 0.
  */
 int _strcmp(char *s1, char *s2)
@@ -62,9 +64,10 @@ int _strcmp(char *s1, char *s2)
 	return (0);
 }
 /**
- * _strchr - locates a character in a string,
+ * _strchr - Entry point.
  * @s: string.
  * @c: character.
+ * Description: This function locates a character in a string.
  * Return: the pointer to the first occurrence of the character c.
  */
 char *_strchr(char *s, char c)
@@ -79,9 +82,10 @@ char *_strchr(char *s, char c)
 	return ('\0');
 }
 /**
- * _strspn - gets the length of a prefix substring.
+ * _strspn - Entry point.
  * @s: initial segment.
  * @accept: accepted bytes.
+ * Description: THis function gets the length of a prefix substring.
  * Return: the number of accepted bytes.
  */
 int _strspn(char *s, char *accept)

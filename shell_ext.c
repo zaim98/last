@@ -1,9 +1,8 @@
 #include "shell.h"
-
 /**
- * exit_shell - exits the shell
- *
+ * exit_shell - Entry point.
  * @datash: data relevant (status and args)
+ * Description: This function exits the shell.
  * Return: 0 on success.
  */
 int exit_shell(data_shell *datash)

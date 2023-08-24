@@ -1,8 +1,8 @@
 #include "shell.h"
-
 /**
- * _strdup - duplicates a str in the heap memory.
+ * _strdup - Entry point.
  * @s: Type char pointer str
+ * Description: This function duplicates a str in the heap memory.
  * Return: duplicated str
  */
 char *_strdup(const char *s)
@@ -19,8 +19,9 @@ char *_strdup(const char *s)
 }
 
 /**
- * _strlen - Returns the lenght of a string.
+ * _strlen - Entry point.
  * @s: Type char pointer
+ * Description: This function Returns the lenght of a string.
  * Return: Always 0.
  */
 int _strlen(const char *s)
@@ -34,10 +35,10 @@ int _strlen(const char *s)
 }
 
 /**
- * cmp_chars - compare chars of strings
+ * cmp_chars - Entry point.
  * @str: input string.
  * @delim: delimiter.
- *
+ * Description: This function compare chars of strings.
  * Return: 1 if are equals, 0 if not.
  */
 int cmp_chars(char str[], const char *delim)
@@ -61,10 +62,10 @@ int cmp_chars(char str[], const char *delim)
 }
 
 /**
- * _strtok - splits a string by some delimiter.
+ * _strtok - Entry point.
  * @str: input string.
  * @delim: delimiter.
- *
+ * Description: This function splits a string by some delimiter.
  * Return: string splited.
  */
 char *_strtok(char str[], const char *delim)
@@ -111,9 +112,9 @@ char *_strtok(char str[], const char *delim)
 }
 
 /**
- * _isdigit - defines if string passed is a number
- *
- * @s: input string
+ * _isdigit - Entry point.
+ * @s: input string.
+ * Description: This function defines if string passed is a number.
  * Return: 1 if string is a number. 0 in other case.
  */
 int _isdigit(const char *s)

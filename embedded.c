@@ -1,8 +1,8 @@
 #include "shell.h"
-
 /**
- * get_builtin - builtin that pass the command in the arg
+ * get_builtin - Entry point.
  * @cmd: command
+ * Description: This function builtin that pass the command in the arg.
  * Return: function pointer of the builtin command
  */
 int (*get_builtin(char *cmd))(data_shell *)

@@ -1,11 +1,10 @@
 #include "shell.h"
-
 /**
- * copy_info - copies info to create
+ * copy_info - Entry point.
  * a new env or alias
  * @name: name (env or alias)
  * @value: value (env or alias)
- *
+ * Description: This function copies info to create.
  * Return: new env or alias.
  */
 char *copy_info(char *name, char *value)
@@ -26,11 +25,11 @@ char *copy_info(char *name, char *value)
 }
 
 /**
- * set_env - sets an environment variable
- *
+ * set_env - Entry point.
  * @name: name of the environment variable
  * @value: value of the environment variable
  * @datash: data structure (environ)
+ * Description: This function sets an environment variable.
  * Return: no return
  */
 void set_env(char *name, char *value, data_shell *datash)
@@ -58,10 +57,10 @@ void set_env(char *name, char *value, data_shell *datash)
 }
 
 /**
- * _setenv - compares env variables names
+ * _setenv - Entry point.
  * with the name passed.
  * @datash: data relevant (env name and env value)
- *
+ * Description: This function compares env variables names.
  * Return: 1 on success.
  */
 int _setenv(data_shell *datash)
@@ -79,10 +78,9 @@ int _setenv(data_shell *datash)
 }
 
 /**
- * _unsetenv - deletes a environment variable
- *
+ * _unsetenv - Entry point.
  * @datash: data relevant (env name)
- *
+ * Description: This function deletes a environment variable.
  * Return: 1 on success.
  */
 int _unsetenv(data_shell *datash)

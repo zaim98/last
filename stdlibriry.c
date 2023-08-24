@@ -1,8 +1,8 @@
 #include "shell.h"
-
 /**
- * get_len - Get the lenght of a number.
+ * get_len - Entry point.
  * @n: type int number.
+ * Description: This fucntion Get the lenght of a number.
  * Return: Lenght of a number.
  */
 int get_len(int n)
@@ -28,8 +28,9 @@ int get_len(int n)
 	return (lenght);
 }
 /**
- * aux_itoa - function converts int to string.
+ * aux_itoa - Entry point.
  * @n: type int number
+ * Description: This function function converts int to string.
  * Return: String.
  */
 char *aux_itoa(int n)
@@ -66,8 +67,9 @@ char *aux_itoa(int n)
 }
 
 /**
- * _atoi - converts a string to an integer.
+ * _atoi - Entry point.
  * @s: input string.
+ * Description: This fucntion converts a string to an integer.
  * Return: integer.
  */
 int _atoi(char *s)

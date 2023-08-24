@@ -1,9 +1,8 @@
 #include "shell.h"
-
 /**
- * without_comment - deletes comments from the input
- *
- * @in: input string
+ * without_comment - Entry point.
+ * @in: input string.
+ * Description: This function deletes comments from the input.
  * Return: input without comments
  */
 char *without_comment(char *in)
@@ -36,9 +35,9 @@ char *without_comment(char *in)
 }
 
 /**
- * shell_loop - Loop of shell
+ * shell_loop - Entry point.
  * @datash: data relevant (av, input, args)
- *
+ * Description: This function Loop of shell.
  * Return: no return.
  */
 void shell_loop(data_shell *datash)
